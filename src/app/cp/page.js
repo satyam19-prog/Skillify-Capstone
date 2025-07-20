@@ -42,7 +42,7 @@ export default function Competitive() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
 
-  const fetchProblems = (tag) => {
+  const fetchProblems = (tag, rating) => {
     setLoading(true);
     fetch(`https://codeforces.com/api/problemset.problems?tags=${tag}`)
       .then(res => res.json())
@@ -66,8 +66,8 @@ export default function Competitive() {
   };
 
   useEffect(() => {
-    fetchProblems(topic);
-  }, [topic, rating, fetchProblems]);
+    fetchProblems(topic, rating);
+  }, [topic, rating]);
 
   return (
     <div className="cp-container">

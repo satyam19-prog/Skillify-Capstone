@@ -1,0 +1,59 @@
+.lang-container {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+  color: #eee;
+  background-color: black;
+}
+
+.lang-title {
+  text-align: center;
+  font-size: 3rem;
+  color: #614BDB;
+  margin-bottom: 40px;
+}
+
+.dropdown-wrapper {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.dropdown-wrapper label {
+  font-size: 1.2rem;
+  margin-right: 10px;
+  color: #aaa;
+}
+
+.dropdown-wrapper select {
+  padding: 10px 14px;
+  font-size: 1rem;
+  background-color: black;
+  color: #fff;
+  border: 2px solid #614BDB;
+  border-radius: 6px;
+  outline: none;
+}
+
+.topics ul {
+  list-style-type: disc;
+  padding-left: 30px;
+}
+
+.topic-block {
+  margin-bottom: 30px;
+}
+
+.topic-block h2 {
+  margin-bottom: 10px;
+  color: #C3B8FF;
+}
+
+pre {
+  background: #0f0f0f;
+  padding: 12px 15px;
+  border-radius: 4px;
+  overflow-x: auto;
+  font-size: 0.95rem;
+  color: #d6d6d6;
+  margin-top: 5px;
+}

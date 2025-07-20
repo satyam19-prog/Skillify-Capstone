@@ -1,0 +1,169 @@
+.login-page {
+background: black;
+color: white;
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+}
+
+.header {
+display: flex;
+justify-content: space-between;
+padding: 1rem 2rem;
+background: black;
+}
+
+.logo a{
+font-size: 24px;
+font-weight: bold;
+color: #614BDB;
+}
+
+.nav-links a {
+margin-left: 1.5rem;
+font-weight: bold;
+color: white;
+transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+color: #C3B8FF;
+}
+
+.login-main {
+flex: 1;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+padding: 40px 20px;
+}
+
+.login-title {
+font-size: 28px;
+font-weight: 800;
+color: #614BDB;
+margin-bottom: 30px;
+text-align: center;
+}
+
+.login-form {
+display: flex;
+flex-direction: column;
+width: 100%;
+max-width: 400px;
+gap: 20px;
+}
+
+.login-form input {
+padding: 14px;
+background: transparent;
+border: 2px solid #614BDB;
+border-radius: 8px;
+color: white;
+font-size: 16px;
+text-transform: uppercase;
+}
+
+.login-options {
+display: flex;
+justify-content: space-between;
+font-size: 12px;
+align-items: center;
+color: #614BDB;
+}
+
+.login-options label {
+display: flex;
+align-items: center;
+gap: 6px;
+}
+
+.login-options a {
+color: white;
+font-weight: bold;
+font-size: 12px;
+}
+
+.login-btn {
+background: #614BDB;
+color: white;
+padding: 14px;
+border: none;
+border-radius: 8px;
+font-size: 18px;
+font-weight: bold;
+cursor: pointer;
+text-transform: uppercase;
+}
+
+.login-btn:hover {
+background: #4b38b3;
+transform: scale(1.03);
+transition: all 0.3s ease;
+}
+
+.login-divider {
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 10px;
+margin: 24px 0;
+}
+
+.login-divider hr {
+width: 100px;
+border: 1px solid #614BDB;
+}
+
+.login-divider span {
+color: white;
+font-weight: bold;
+font-size: 14px;
+}
+
+.google-login img {
+height: 40px;
+width: 40px;
+background: white;
+border-radius: 6px;
+padding: 4px;
+margin-bottom: 20px;
+}
+
+.login-note {
+font-size: 14px;
+color: white;
+font-weight: 500;
+}
+
+.login-note a {
+color: #614BDB;
+font-weight: bold;
+text-decoration: none;
+}
+
+.footer {
+display: flex;
+justify-content: space-between;
+padding: 1rem 2rem;
+font-size: 12px;
+color: #999;
+}
+
+
+.social-icons span {
+margin-right: 12px;
+cursor: pointer;
+}
+
+.social-icon {
+width: 24px;
+height: 24px;
+margin-right: 12px;
+transition: transform 0.3s;
+}
+
+.social-icon:hover {
+transform: scale(1.2);
+}

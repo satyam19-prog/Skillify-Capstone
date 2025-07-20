@@ -1,0 +1,103 @@
+.login-page {
+background: black;
+color: white;
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+}
+
+.header {
+display: flex;
+justify-content: space-between;
+padding: 1rem 2rem;
+background: black;
+}
+
+.logo a{
+font-size: 24px;
+font-weight: bold;
+color: #614BDB;
+}
+
+.nav-links a {
+margin-left: 1.5rem;
+font-weight: bold;
+color: white;
+transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+color: #C3B8FF;
+}
+
+.login-main {
+flex: 1;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+padding: 40px 20px;
+}
+
+.login-title{
+    text-align: center;
+    font-size: 3rem;
+    color: #614BDB;
+    margin-bottom: 30px;
+}
+
+.about-content {
+max-width: 800px;
+width: 100%;
+color: white;
+display: flex;
+flex-direction: column;
+gap: 40px;
+padding: 20px;
+}
+
+.about-section {
+background: black;
+border-left: 4px solid #614BDB;
+padding: 20px;
+border-radius: 10px;
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about-section:hover {
+transform: scale(1.03);
+box-shadow: 0 8px 20px #C3B8FF;
+}
+
+.section-title {
+font-size: 20px;
+font-weight: 700;
+margin-bottom: 12px;
+color: #C3B8FF;
+}
+  
+
+.footer {
+display: flex;
+justify-content: space-between;
+padding: 1rem 2rem;
+font-size: 12px;
+color: #999;
+}
+
+
+.social-icons span {
+margin-right: 12px;
+cursor: pointer;
+}
+
+.social-icon {
+width: 24px;
+height: 24px;
+margin-right: 12px;
+transition: transform 0.3s;
+}
+
+.social-icon:hover {
+transform: scale(1.2);
+}

@@ -1,0 +1,112 @@
+.services-page {
+  background: black;
+  color: white;
+  min-height: 100vh;
+}
+
+.header {
+display: flex;
+justify-content: space-between;
+padding: 1rem 2rem;
+background: black;
+border-bottom: 2px solid #614BDB;
+}
+
+.logo a{
+font-size: 24px;
+font-weight: bold;
+color: #614BDB;
+}
+
+.nav-links a {
+margin-left: 1.5rem;
+font-weight: bold;
+color: white;
+transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+color: #C3B8FF;
+}
+
+.services-main {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.service-image {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  margin-bottom: 16px;
+}
+
+.services-title {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 40px;
+  color: #614BDB;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 25px;
+}
+
+@media (min-width: 700px) {
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.service-card {
+  background: black;
+  padding: 24px;
+  border-left: 6px solid #614BDB;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 20px #C3B8FF;
+}
+
+.service-card h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.service-card p {
+  color: #ccc;
+  line-height: 1.6;
+}
+
+.footer {
+display: flex;
+justify-content: space-between;
+padding: 1rem 2rem;
+font-size: 12px;
+color: white;
+border-top: 2px solid #614BDB;
+}
+
+
+.social-icons span {
+margin-right: 12px;
+cursor: pointer;
+}
+
+.social-icon {
+width: 24px;
+height: 24px;
+margin-right: 12px;
+transition: transform 0.3s;
+}
+
+.social-icon:hover {
+transform: scale(1.2);
+}

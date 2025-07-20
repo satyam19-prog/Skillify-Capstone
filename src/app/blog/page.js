@@ -21,7 +21,7 @@ export default function BlogPage() {
 
           <div className="blog-card">
             <h2>Mastering Greedy Algorithms</h2>
-            <p>Explore how greedy techniques can simplify complex problems and when it's the best choice for optimization.</p>
+            <p>Explore how greedy techniques can simplify complex problems and when it&apos;s the best choice for optimization.</p>
             <a href="https://codeforces.com/blog/entry/60612" className="read-more">Read more →</a>
           </div>
 

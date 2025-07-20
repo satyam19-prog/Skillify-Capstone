@@ -51,7 +51,7 @@ export default function LoginPage() {
         </div>
 
         <p className="login-note">
-          DON'T HAVE AN ACCOUNT? <a href="/signup">SIGN UP</a>
+          DON&apos;T HAVE AN ACCOUNT? <a href="/signup">SIGN UP</a>
         </p>
       </main>
 

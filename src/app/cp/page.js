@@ -67,7 +67,7 @@ export default function Competitive() {
 
   useEffect(() => {
     fetchProblems(topic);
-  }, [topic, rating]);
+  }, [topic, rating, fetchProblems]);
 
   return (
     <div className="cp-container">

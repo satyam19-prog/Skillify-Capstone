@@ -1,5 +1,6 @@
 'use client';
 import React, { useState, useEffect } from 'react';
+import Image from 'next/image';
 
 export default function Home() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
@@ -72,10 +73,10 @@ export default function Home() {
 
       <footer className="footer">
         <div className="social-icons">
-          <a href="https://twitter.com/"><img src="/x.jpg" alt="X" className="social-icon" /></a>
-          <a href="https://www.instagram.com"><img src="/instagram.webp" alt="Instagram" className="social-icon" /></a>
-          <a href="https://www.youtube.com"><img src="/youtube.webp" alt="YouTube" className="social-icon" /></a>
-          <a href="https://www.linkedin.com"><img src="/linkedin.webp" alt="LinkedIn" className="social-icon" /></a>
+          <a href="https://twitter.com/"><Image src="/x.jpg" alt="X" className="social-icon" width={32} height={32} /></a>
+          <a href="https://www.instagram.com"><Image src="/instagram.webp" alt="Instagram" className="social-icon" width={32} height={32} /></a>
+          <a href="https://www.youtube.com"><Image src="/youtube.webp" alt="YouTube" className="social-icon" width={32} height={32} /></a>
+          <a href="https://www.linkedin.com"><Image src="/linkedin.webp" alt="LinkedIn" className="social-icon" width={32} height={32} /></a>
         </div>
         <p className="footer-text">© 2025 SKILLIFY. ALL RIGHTS RESERVED.</p>
       </footer>

@@ -71,7 +71,7 @@ export default function Maths() {
           </div>
 
           {selected !== null && (
-            <div className="footer">
+            <div className="footer_2">
               <span className="feedback">
                 {selected === qs[current].correctAnswer
                   ? '✅ Correct!'
